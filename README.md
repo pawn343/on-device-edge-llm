@@ -21,9 +21,10 @@ Ollama even with OpenCL or Vulkan backend packages in Termux can't run the model
 Litert-lm and ServLLama MNN are the best inference runtime/runner to use the GPU using OpenCL.
 
 # Models
-Several models even with high params can't run pretty well by mean its understanding to the user context.
-Some models are:
-- Gemma 4 E2B multi modal/omni
+Several models even with high params (let alone low params like 330M, 550M, 0.6B, 0.8B, etc) can't run pretty well by mean its understanding to the user context.
+
+Some models that i've tried are:
+- Gemma 4 E2B multi modal/omni (recommended)
 - MiniCPM5
 - MiniCPM V 4.6
 - Qwen3.8 (including the VL variant)
